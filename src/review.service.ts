@@ -3,7 +3,7 @@ import { AiReviewService } from './ai-review/ai-review.service';
 import { ConfigService } from './config/config.service';
 import { GithubService } from './github/github.service';
 
-const TRIGGER_WORD = '/ai-review';
+const TRIGGER_WORD = '/ai-check';
 
 @Injectable()
 export class ReviewService {
